@@ -8,10 +8,17 @@ class GalleryList extends Component {
     render() {
         console.log('prop:', this.props);
         return (
-            <ul>
-                { this.props.inventory.map( (item) => <GalleryItem
-                    key={ this.props.inventory.indexOf(item) } picture={item}/> ) }
-            </ul>
+            <div>
+                <img src={this.props.path} height="100" width="100"/>
+                { this.props.map( (item) =>
+                    <GalleryItem
+                        key={ item.id }
+                        id={ item.id }
+                        description={ item.description }
+                        likes={ item.likes }
+                    />
+                )}
+            </div>
         );
     }
 }
