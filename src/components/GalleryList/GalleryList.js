@@ -6,16 +6,13 @@ class GalleryList extends Component {
 
 
     render() {
-        console.log('prop:', this.props);
+        console.log('GalleryList:', this.props.pictures);
         return (
             <div>
-                <img src={this.props.path} height="100" width="100"/>
-                { this.props.map( (item) =>
+                { this.props.pictures.map((item) => 
                     <GalleryItem
-                        key={ item.id }
-                        id={ item.id }
-                        description={ item.description }
-                        likes={ item.likes }
+                    key={this.props.pictures.id}
+                    pic={item}
                     />
                 )}
             </div>

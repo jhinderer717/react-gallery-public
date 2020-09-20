@@ -40,15 +40,18 @@ class App extends Component {
         <p>Gallery goes here</p>
         {/* <img src="images/Night_Sky.jpg" width="207.36" height="311.04" alt=""/>
         <img src="images/goat_small.jpg"/> */}
-        {this.state.pictures.map(pic =>
-          <GalleryList
-            key={ pic.id }
-            id={ pic.id }
-            path={ pic.path }
-            description={ pic.description }
-            likes={ pic.likes }
-          />
-        )}
+        {/* <ul>
+          {this.state.pictures.map(pic =>
+            <GalleryList
+              key={ pic.id }
+              id={ pic.id }
+              path={ pic.path }
+              description={ pic.description }
+              likes={ pic.likes }
+            />
+          )}
+        </ul> */}
+        <GalleryList pictures={this.state.pictures}/>
       </div>
     );
   }
