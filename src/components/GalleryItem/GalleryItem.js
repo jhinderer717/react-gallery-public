@@ -24,7 +24,7 @@ class GalleryItem extends Component {
                                 <img src={ this.props.pic.path } height="150" alt=""/>
                             </div> :
                             <div onClick={this.handleClick} className="classDesc">
-                                <p>{ this.props.pic.description }</p>
+                                <p className="pClass">{ this.props.pic.description }</p>
                             </div>
                     }
                 <button onClick={() => this.props.onLike(this.props.pic.id)}>B for Bop!</button>

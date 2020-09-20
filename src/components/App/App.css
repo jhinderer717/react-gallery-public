@@ -39,10 +39,12 @@ div{
   margin: 30px;
   border: 1px solid black;
   width: 250px;
+  background-color: skyblue;
 }
 
-.galleryList{
-  
+.classDesc{
+  /* border: 3px solid red; */
+  /* height: 500px; */
 }
 
 button{
@@ -52,4 +54,11 @@ button{
 
 p{
   display: inline-block;
+}
+.pClass{
+  margin: 0px;
+  padding: 59px 0px;
+}
+.classPic{
+  margin: 0px;
 }
