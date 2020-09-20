@@ -1,3 +1,8 @@
+html{
+  background-color: rgba(192, 226, 43, 0.555);
+  box-shadow: 0 50px 50px 50px rgba(128, 126, 0, 0.699) inset;
+}
+
 .App {
   text-align: center;
 }
@@ -39,7 +44,7 @@ div{
   margin: 30px;
   border: 1px solid black;
   width: 250px;
-  background-color: skyblue;
+  background-color: rgba(1, 101, 141, 0.507);
 }
 
 .classDesc{
