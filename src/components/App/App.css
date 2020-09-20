@@ -37,9 +37,19 @@ div{
 .GalleryItem{
   display: inline-block;
   margin: 30px;
+  border: 1px solid black;
+  width: 250px;
+}
+
+.galleryList{
+  
 }
 
 button{
   display: block;
   margin: auto;
+}
+
+p{
+  display: inline-block;
 }

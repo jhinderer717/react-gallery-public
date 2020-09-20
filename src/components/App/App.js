@@ -49,7 +49,7 @@ class App extends Component {
           <h1 className="App-title">Instagram is destroying the social fabric of our youth</h1>
         </header>
         <br/>
-        <p>Gallery</p>
+        <h3>Gallery</h3>
         <GalleryList
           pictures={this.state.pictures}
           onLike={this.onLike}

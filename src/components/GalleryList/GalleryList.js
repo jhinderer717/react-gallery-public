@@ -6,9 +6,8 @@ class GalleryList extends Component {
 
     render() {
         console.log('GalleryList:', this.props.pictures);
-        console.log('onLike from GalleryList', this.props.onLike);
         return (
-            <div>
+            <div className="galleryList">
                 { this.props.pictures.map((item) => 
                     <GalleryItem
                         key={this.props.pictures.indexOf(item)}
