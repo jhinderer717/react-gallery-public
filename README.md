@@ -29,4 +29,4 @@ To run this app you'll need:
 
 ## Usage
 
-Images stored within the app will be displayed. You can click the button which increases the count. The count for each image resets when the server resets. Clicking the image toggles the description and clicking the description toggles the image back.
+Images stored within the app will be displayed. You can click the button which increases the count. The count for each image resets when the server resets. Clicking the image toggles the description.
