@@ -10,4 +10,4 @@ Additional README details can be found [here](https://github.com/PrimeAcademy/re
 
 ## Screenshots
 
-![screenshot](./Screen Shot 2020-09-20 at 10.18.30 AM.png)
+![screenshot](/Users/johnhinderer/prime/tier2/1Weekend Projects/react-gallery/public/images/Screen Shot 2020-09-20 at 10.18.30 AM.png)
