@@ -22,11 +22,23 @@ class App extends Component {
       this.setState({
         pictures: response.data
       })
-      console.log('state...', this.state);
+      console.log('state in App...', this.state);
     }).catch(err =>{
       console.log(err);
     }); // end axios
   } // end getPicks
+
+  onLike = (picId) => {
+    axios({
+        method: `PUT`,
+        url: `/gallery/like/${picId}`
+    }).then(response => {
+      console.log('liked');
+      this.getPics();
+    }).catch(err =>{
+      console.log(err);
+    }); // end axios
+  } // end onLike
 
 
   render() {
@@ -34,24 +46,14 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Gallery of my life</h1>
+          <h1 className="App-title">Instagram is destroying the social fabric of our youth</h1>
         </header>
         <br/>
-        <p>Gallery goes here</p>
-        {/* <img src="images/Night_Sky.jpg" width="207.36" height="311.04" alt=""/>
-        <img src="images/goat_small.jpg"/> */}
-        {/* <ul>
-          {this.state.pictures.map(pic =>
-            <GalleryList
-              key={ pic.id }
-              id={ pic.id }
-              path={ pic.path }
-              description={ pic.description }
-              likes={ pic.likes }
-            />
-          )}
-        </ul> */}
-        <GalleryList pictures={this.state.pictures}/>
+        <p>Gallery</p>
+        <GalleryList
+          pictures={this.state.pictures}
+          onLike={this.onLike}
+        />
       </div>
     );
   }
