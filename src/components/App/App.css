@@ -30,6 +30,16 @@ img{
   display: inline;
 }
 
-li, div{
+div{
   display: inline;
+}
+
+.GalleryItem{
+  display: inline-block;
+  margin: 30px;
+}
+
+button{
+  display: block;
+  margin: auto;
 }

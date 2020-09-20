@@ -11,7 +11,7 @@ class GalleryList extends Component {
             <div>
                 { this.props.pictures.map((item) => 
                     <GalleryItem
-                    key={this.props.pictures.id}
+                    key={this.props.pictures.indexOf(item)}
                     pic={item}
                     />
                 )}
