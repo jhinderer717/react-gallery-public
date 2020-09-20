@@ -4,7 +4,7 @@
 
 ## Description
 
-This project shows a gallery of images. For each image, there is a button which you can press. Pressing the button increases the count for each image. When the image itself is click, a description of the image replaces the image. When that description is clicked, the image is brought back.
+This project shows a gallery of images. For each image, there is a button which you can press. Pressing the button increases the count for each image. When the image itself is clicked, a description of the image replaces the image. When that description is clicked, the image is brought back.
 
 
 
