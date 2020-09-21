@@ -1,6 +1,6 @@
 html{
-  background-color: rgba(226, 168, 43, 0.555);
-  box-shadow: 0 50px 50px 50px rgba(255, 255, 255, 0.555) inset;
+  background-color: rgba(0, 0, 255, 0.568);
+  box-shadow: 0 50px 50px 50px rgba(255, 255, 255, 0.808) inset;
 }
 
 .App {
@@ -44,7 +44,7 @@ div{
   margin: 30px;
   border: 1px solid black;
   width: 250px;
-  background-color: rgba(1, 101, 141, 0.507);
+  background-color: rgba(255, 59, 59, 0.527);
 }
 
 .classDesc{
