@@ -10,7 +10,7 @@ This project shows a gallery of images. For each image, there is a button which 
 
 ## Screenshots
 
-![screenshot](/Users/johnhinderer/Desktop/Screen Shot 2020-09-20 at 10.18.30 AM.png) <!-- doesn't work for now -->
+![screenshot](wireframes/Screen Shot 2020-09-20 at 10.18.30 AM.png) <!-- doesn't work for now -->
 
 
 ## Prerequisites
