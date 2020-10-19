@@ -46,7 +46,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Instagram is destroying the social fabric of our youth</h1>
+          <h1 className="App-title">Cool Pictures</h1>
         </header>
         <br/>
         <h3>Gallery</h3>
