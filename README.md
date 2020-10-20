@@ -9,7 +9,7 @@ This project shows a gallery of images. For each image, there is a button which 
 
 ## Screenshots
 
-![screenshot](public/images/Screen Shot 2020-10-19 at 3.54.05 PM.png) <!-- doesn't work for now -->
+![screenshot](public/images/ScreenShot.png) <!-- doesn't work for now -->
 
 
 ## Prerequisites
